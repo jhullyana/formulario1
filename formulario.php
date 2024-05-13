@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<?php
+$nome = $_GET["nome"] ?? null;
+?>
+<header>
+    <h1>Bem-vindo ao login <?php 
+    echo $nome;
+    ?></h1>
+</header>
+<?php 
+
+   
+?>
+
+</body>
+</html>
